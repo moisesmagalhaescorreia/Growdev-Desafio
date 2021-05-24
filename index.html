@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Currículo</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/estilos.css">
+</head>
+<body>
+    <div class="container-fluid container-linear">
+        <div class="row container-card">
+            <div class="offset-lg-3 col-md-3 col-lg-3 card-col">
+                <div class="card card-perfil">
+                    <div class="img-card-perfil">
+                        <img src="./imagens/meme.jpg" alt="Avatar do perfil" class="card-image mx-auto d-block">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="text-center card-title" id="nome-candidato"></h5>
+                        <hr class="hr">
+                        <p class="text-center" id="cargo-pretendido"></p>
+                        <div class="botoes-card">
+                            <button onclick="cliqueSobre()" class="btn mr-1" id="btn-sobre">Sobre</button>
+                            <button onclick="cliqueProjetos()" class="btn ml-1 btn-card" id="btn-projetos">Projetos</button>
+                        </div>
+                        <div class="icon-redes-sociais">
+                            <div class="links-redes-sociais mt-2">
+                                <a target="_blank" href="https://www.facebook.com/">
+                                    <i class="fab fa-facebook"></i>
+                                </a>
+                                <a target="_blank" href="https://twitter.com/">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                                <a target="_blank" href="https://www.linkedin.com/">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+                                <a target="_blank" href="https://www.instagram.com/">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-6 text-body">
+                <div class="text" id="texto-1">
+                    <h1 class="title-text">Olá</h1>
+                    <h4 class="title-subtitle">Bem vindo ao meu currículo</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eu ante varius, accumsan elit sit amet, fermentum justo. Aliquam malesuada sit amet tellus at sagittis. Sed cursus quam a quam gravida hendrerit. Mauris gravida ligula nec velit accumsan suscipit. Nulla nisl sapien, vestibulum eget ligula non, mattis aliquet lectus. Proin eget risus quis diam sagittis ultricies. Mauris convallis ante ac nulla malesuada dignissim. Nunc massa nunc, dapibus tempor mauris in, finibus finibus erat.
+                    </p>
+                    <p>
+                        Sed commodo eleifend magna, id faucibus ipsum. Praesent diam nunc, pretium quis massa in, volutpat condimentum ligula. Praesent libero nunc, fringilla non justo vel, auctor tincidunt urna. Sed sit amet tincidunt felis. Pellentesque sed ipsum feugiat, placerat elit ut, convallis nulla. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam iaculis mauris eu dapibus placerat. Duis pharetra erat euismod, rhoncus risus ut, consequat arcu. Aenean laoreet tristique eros, non ultrices ipsum placerat at.
+                    </p>
+                </div>
+                <div class="text" id="texto-2">
+                    <h1 class="title-text">Projetos</h1>
+                    <h4 class="title-subtitle">Bem vindo aos meus projetos</h4>
+                    <p>
+                        <a target="_blank" href="http://www.growdev.com.br">Site da Growdev que foi desenvolvido com ReactJS.</a>
+                    </p>
+                    <img src="./imagens/memegif.gif" alt="Meme gif">
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="container">
+        <div class="row" id="footer-elementos">
+            <div class="col-md-3 col-lg-3">
+                <h4>Telefone</h4>
+                <p>(83) 9999-9999</p>
+            </div>
+            <div class="col-md-3 col-lg-3">
+                <div class="email">
+                    <h4>E-mail</h4>
+                    <p>noisepensante@pensantes.com.br</p>
+                </div>
+            </div>
+            <div class="col-md3 col-lg-3">
+                <h4>Siga</h4>
+                <div class="links-redes-sociais"></div>
+                    <a target="_blank" href="https://www.facebook.com/">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a target="_blank" href="https://twitter.com/">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a target="_blank" href="https://www.linkedin.com/">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a target="_blank" href="https://www.instagram.com/">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+            </div>
+        </div>
+        <div class="row text-center mb-2">
+            <div class="col-mb-12 col-lg-12">
+                <small>@2021 <a target="_blank" href="http://www.growdev.com.br">Growdev</a> All Rights Reserved.</small>
+            </div>
+        </div>
+    </footer>
+    <script src="./js/index.js"></script>
+</body>
+</html>
